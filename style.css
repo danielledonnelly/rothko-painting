@@ -1,11 +1,31 @@
 .canvas {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 700px;
   background-color: white;
+  margin: auto;
 }
 
 .frame {
   border: thick solid black;
-  width: 1000px;
-  height: 1000px;
+  width: 400px;
+  height: 700px;
+  margin: auto
+}
+
+.top {
+  background-color: rgb(255, 2, 70);
+  width: 100%;
+  height: 50%;
+}
+
+.middle{
+  background-color: rgb(180, 70, 120);
+  width: 100%;
+  height: 25%;
+}
+
+.bottom{
+  background-color: rgb(80, 96, 168);
+  width: 100%;
+  height: 25%;
 }
