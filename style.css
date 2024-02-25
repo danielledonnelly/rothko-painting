@@ -1,31 +1,45 @@
 .canvas {
-  width: 400px;
-  height: 700px;
-  background-color: white;
+  width: 450px;
+  height: 750px;
+  background-color: rgb(209, 90, 90);
   margin: auto;
+  overflow: hidden;
+  filter: blur(2px);
 }
 
 .frame {
   border: thick solid black;
-  width: 400px;
-  height: 700px;
+  width: 450px;
+  height: 750px;
   margin: auto
 }
 
 .top {
-  background-color: rgb(255, 2, 70);
-  width: 100%;
-  height: 50%;
+  background-color: rgb(255, 50, 70);
+  width: 90%;
+  height: 40%;
+  box-shadow: 0 0 3px 3px rgb(255, 50, 70);
+  border-radius: 1px;
+  transform: rotate(0.2deg);
+  margin: auto
 }
 
 .middle{
-  background-color: rgb(180, 70, 120);
-  width: 100%;
+  background-color: rgb(180, 70, 100);
+  width: 90%;
   height: 25%;
+  box-shadow: 0 0 3px 3px rgb(180, 70, 100);
+  border-radius: 2px;
+  transform: rotate(-0.5deg);
+  margin: auto
 }
 
 .bottom{
   background-color: rgb(80, 96, 168);
-  width: 100%;
+  width: 90%;
   height: 25%;
+  box-shadow: 0 0 3px 3px rgb(80, 96, 168);
+  border-radius: 6px;
+  transform: rotate(-0.5deg);
+  margin: auto;
 }
