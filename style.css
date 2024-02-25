@@ -1,0 +1,11 @@
+.canvas {
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
+.frame {
+  border: thick solid black;
+  width: 1000px;
+  height: 1000px;
+}
