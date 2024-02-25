@@ -17,17 +17,19 @@
 .top {
   background-color: rgb(255, 50, 70);
   width: 90%;
-  height: 40%;
+  height: 50%;
   box-shadow: 0 0 3px 3px rgb(255, 50, 70);
   border-radius: 1px;
   transform: rotate(0.2deg);
-  margin: auto
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .middle{
   background-color: rgb(180, 70, 100);
   width: 90%;
-  height: 25%;
+  height: 15%;
   box-shadow: 0 0 3px 3px rgb(180, 70, 100);
   border-radius: 2px;
   transform: rotate(-0.5deg);
@@ -41,5 +43,7 @@
   box-shadow: 0 0 3px 3px rgb(80, 96, 168);
   border-radius: 6px;
   transform: rotate(-0.5deg);
-  margin: auto;
+  margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
